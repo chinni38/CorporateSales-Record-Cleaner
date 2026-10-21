@@ -1,0 +1,9 @@
+customer_id,customer_name,city,total_spend,total_orders,average_order_value
+101,Ravi,Hyderabad,7000,3,2333.33
+102,Bhavna,Chennai,3000,2,1500.0
+103,Priya,Bangalore,4900,2,2450.0
+104,Arjun,Hyderabad,4000,1,4000.0
+105,Sneha,Mumbai,2200,1,2200.0
+106,Kiran,Chennai,2800,1,2800.0
+107,Divya,Bangalore,3500,1,3500.0
+108,Rahul,Mumbai,4500,1,4500.0

@@ -1,0 +1,36 @@
+CORPORATE SALES RECORD CLEANER — RUN REPORT
+================================================
+Input file: raw_sales.csv
+Output file: cleaned_sales.csv
+Before shape (rows, columns): (25, 7)
+After shape (rows, columns): (24, 7)
+Exact duplicate rows removed: 1
+
+Missing values before cleaning:
+Order_ID          0
+City              1
+Payment_Method    1
+Price             1
+Quantity          1
+Age               1
+Order_Date        0
+
+Missing values after cleaning:
+Order_ID          0
+City              0
+Payment_Method    0
+Price             0
+Quantity          0
+Age               0
+Order_Date        0
+
+Cleaning decisions:
+- Removed fully identical duplicate records.
+- Trimmed leading/trailing whitespace and standardized text casing.
+- Imputed numeric missing values with the median.
+- Imputed categorical/text missing values with the mode (or 'Unknown' if no mode exists).
+- Parsed Order_Date into YYYY-MM-DD format.
+- Clipped negative Price, Quantity, and Age values to zero.
+
+Baseline summary: baseline_summary_statistics.csv
+Cleaned summary: cleaned_summary_statistics.csv
